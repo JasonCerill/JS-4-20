@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/register.css">
+    <title>The Fashion Pet</title>
+</head>
+
+
+<body>
+
+    <header>
+        <h1>The Fashion Pet</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">services</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div class="form-container container"></div>
+        <h2>Register a New Pet</h2>
+       
+            
+            <div class="form-control">
+                <input type="text" id="txtName" placeholder="Pet Name"/>
+            </div>
+            
+            <div class="form-control">
+                <input type="number" id="txtAge" placeholder="Age"/>
+            </div>
+            
+            <div class="form-control">
+                <input type="text" id="petGender" placeholder="Gender"/>
+            </div>
+            
+            <div class="form-control">
+                <input type="text" id="txtBreed" placeholder="Breed"/> 
+            </div>
+           
+            <div class="form-control">
+               <input type="text" id="serviceRequested" placeholder="Service Requested"/>  
+            </div>
+
+            <div class="form-control">
+                <input type="text" id="ownerName" placeholder="Owner Name"/>
+            </div>
+
+            <div class="form-control">
+                <input type="text" id="contactPhone" placeholder="Contact Phone"/>
+            </div>
+            
+            <div class="form-control">
+                <button onclick="register()">Register</button>
+            </div>
+           
+            
+            
+            
+
+        </div>
+
+        <div id="pets">
+           
+        </div>
+
+    </main>
+
+    <footer>
+        
+
+    </footer>
+
+
+    <script src="scripts/display.js"></script>
+    <script src="scripts/register.js"> </script>
+    
+</body>
+</html>
